@@ -15,6 +15,7 @@ body{
 }
 button{
   background-color:#ff3b3b;
+
 }
 .faqs{
   border: 1px solid white;
@@ -81,4 +82,10 @@ button{
 
 .blog-div{
   margin: 70px;
+}
+
+.submit{
+  background-color: white;
+  color: black;
+  border: 0;
 }

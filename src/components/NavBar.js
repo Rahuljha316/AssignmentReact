@@ -9,6 +9,24 @@ const NavBar = () =>{
     const handleSignUpClick = () =>{
 
     }
+    const handleProductClick = () =>{
+
+    }
+    const handleCompanyClick = () =>{
+
+    }
+    const handlePartnersClick = () =>{
+
+    }
+    const handlePricingClick = () =>{
+
+    }
+    const handleRewardsClick = () =>{
+
+    }
+    const handleResourcesClick = () =>{
+
+    }
     return (
         <div className="navbar">
 
@@ -17,12 +35,12 @@ const NavBar = () =>{
                 <img className='logo' alt="logo" src={logo} />
             </Flex>
             <Flex flex='2' gap={20}>
-                <Flex> Products</Flex>
-                <Flex> Company</Flex>
-                <Flex> Pricing</Flex>
-                <Flex> Rewards</Flex>
-                <Flex> Partners</Flex>
-                <Flex> Resources</Flex>
+                <Flex onClick={handleProductClick}> Products</Flex>
+                <Flex onClick={handleCompanyClick}> Company</Flex>
+                <Flex onClick={handlePricingClick}> Pricing</Flex>
+                <Flex onClick={handleRewardsClick}> Rewards</Flex>
+                <Flex onClick={handlePartnersClick}> Partners</Flex>
+                <Flex onClick={handleResourcesClick}> Resources</Flex>
             </Flex>
             <Flex flex='1' >
                 <button onClick={handleSignInClick} className='signin'>sign in</button>
