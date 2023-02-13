@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color:#09031d;;
+  color: white;
+  height: 100vh;
+}
+.navbar {
+ 
+  margin: 20px;
+}
+.banner{
+  display: flex;
+}
+.banner-text{
+  flex-direction: column;
+}
+button{
+  background-color:#ff3b3b;
+}
+.faqs{
+  border: 1px solid white;
+  padding: 5px 10px;
+  height: 50px;
+  width: 80vw;
+  font-size: 30px;
+  border-radius: .5rem;
+}
+.clients{
+  background-color: black;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 50px;
+}
+.client-message{
+  border: 1px solid white;
+  padding: 5px 10px;
+  height: 200px;
+  width: 300px;
+  background-color: #272c33;
+}
+.blog{
+  border: 1px solid white;
+  padding: 5px 10px;
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.feature1{
+  width: 90px;
+  height: 50px;
+}
+
+.learn-more{
+  width: 150px;
+  height: 35px;
+  border-radius: 5rem;
+}
+
+.planButton{
+  width: 150px;
+  height: 35px;
+  border-radius: 5rem;
+}
+
+.signup{
+  background-color: #9e297c;
+  width: 150px;
+  height: 35px;
+  border-radius: .5rem;
+}
+.signin{
+  background-color: #09031d;
+  border: none;
+}
+
+.faq-div{
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.blog-div{
+  margin: 70px;
 }
